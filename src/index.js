@@ -1,8 +1,7 @@
 
 exports.min = function min (array) {
-    let numMin;
-
-  return numMin;
+  let numMin = a.sort((a, b) => a - b) ;
+  return numMin[0];
 }
 
 exports.max = function max (array) {
@@ -10,5 +9,6 @@ exports.max = function max (array) {
 }
 
 exports.avg = function avg (array) {
-  return 0;
+    let countAvg = a.reduce((acc , elem) => acc + elem) / a.length;
+  return countAvg;
 }
